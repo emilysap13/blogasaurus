@@ -18,5 +18,21 @@ body {
 h3 {
   color: yellow;
   font-size: 20px;
+}
 
+.photo-caption {
+  color: black;
+  font-size: 20px;
+}
+
+.picture-container {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+}
+
+.musician-photos .picture-container {
+  float: left;
+  margin: 25px;
+  border: solid 2px #58bced;
 }
