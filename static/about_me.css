@@ -1,0 +1,83 @@
+.topHeader {
+  color: Cornsilk;
+  text-align: center;
+  background-color: #140033;
+  font-family: Helvetica;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 40px;
+}
+
+.mainSection {
+    font-family: Helvetica;
+    color: #140033;
+    background-color: Cornsilk;
+    height: 400px;
+    margin: 40px;
+    border-radius: 10px;
+
+}
+
+h1{
+  font-size: 90px;
+
+}
+
+h2{
+  font-size: 20px;
+}
+
+h3{
+  background-color: papayawhip;
+
+}
+
+.topLinks {
+  font-weight: bolder;
+  font-family: Helvetica;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: 40px;
+  padding: 20px;
+
+
+}
+
+
+
+body {
+  font-family: Helvetica;
+  background-image: url("/static/daisies.jpg");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+
+
+.photo-caption {
+  color: black;
+  font-size: 200px;
+}
+
+#musician1 {
+  height: 250px;
+  width: 250px;
+}
+
+.picture-container {
+  height: 250px;
+  width: 250px;
+  overflow: hidden;
+  display: block;
+}
+
+.musician-photos .picture-container {
+  float: left;
+  margin: 25px;
+  border: solid 2px #58bced;
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+  overflow: hidden;
+}
