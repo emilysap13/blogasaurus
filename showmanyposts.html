@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Posts</title>
+    <link rel="stylesheet" href="/static/showmanyposts.css">
+</head>
+<body>
+  <div class="topHeader">
+      <h1>Moments</h1>
+      <h2>Emily's Daily Summer Blog</h2>
+  </div>
+  <div class="mainSection">
+    <h3>Posts by {{username}}</h3>
+    {% for basic_post in blog_posts %}
+    <div>
+      <h2>{{basic_post.title}}</h2>
+      <p>{{basic_post.content}}</p>
+      <p>Tags:
+        <ul>
+          {% for tag in basic_post.tagslist %}
+            <li> {{tag}} </li>
+          {% endfor %}
+        </ul>
+      </p>
+    </div>
+    {% endfor %}
+
+
+</div>
+  <div>

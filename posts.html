@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>About Me</title>
+    <title>Posts</title>
     <link rel="stylesheet" href="/static/posts.css">
 </head>
 <body>
@@ -9,9 +9,37 @@
       <h2>Emily's Daily Summer Blog</h2>
   </div>
 
+  <div class="topLinks">
+    <a href="/aboutme">About Me</a>
+  </div>
+  <div class="topLinks">
+    <a href="/posts">Posts</a>
+  </div>
+
   <div class="mainSection">
     <h3>Posts</h3>
-  <p>Here are my posts!</p>
+    <form method = "post">
+      <div>
+        <p>Username:
+        <input type="text" name="username"/>
+      </div>
+      <div>
+        <p>Post Title:
+        <input type="text" name="post_title"/>
+      </div>
+      <div>
+        <p>Enter your post content here:</p>
+        <textarea name="post_content" rows="4" cols="50"/>
+        </textarea>
+      </div>
+      <div>
+        <p>Tags:
+        <input type="text" name="tags"/>
+      </div>
+      <div>
+        <button type="submit">Submit!</button>
+      </div>
+    </form>
 </div>
   <div>
 

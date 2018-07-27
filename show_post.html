@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Posts</title>
+    <link rel="stylesheet" href="/static/show_post.css">
+</head>
+<body>
+  <div class="topHeader">
+      <h1>Moments</h1>
+      <h2>Emily's Daily Summer Blog</h2>
+  </div>
+  <div class="mainSection">
+    <h3>Posts</h3>
+  <p>By {{username}}</p><br>
+  <p>{{post_title}}</p><br>
+  <p>Here is your post:
+    {{post_content}}
+  </p>
+  <p>Tags:
+    <ul>
+      {% for tag in tagslist %}
+        <li> {{tag}} </li>
+      {% endfor %}
+    </ul>
+  </p>
+</div>
+  <div>
